@@ -9,7 +9,7 @@ This repo contains the R script, final output, README, and CodeBook for the Cour
 
 Data
 ----------
-|Col |Col Name          | Type Class  
+|Col |Col Name          | Type Class | Description
 |----|------------------|------------|-----------------------------------------------------
 |1   |subject           | Integer    | Unique identifier assigned to each subject
 |2   |activity          | Factor     | Type of activity for example walking, standing, etc
