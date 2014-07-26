@@ -1,3 +1,6 @@
+### Load necessary library
+library(reshape2)
+
 ### Part1 - Read the training and test datasets into dataframes  
 trainData    <- read.table("./train/X_train.txt")
 testData     <- read.table("./test/X_test.txt")
