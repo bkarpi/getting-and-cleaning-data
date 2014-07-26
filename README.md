@@ -22,10 +22,10 @@ The script: run_analysis.R
 
 This R script reads the raw data, applies cleaning logic, and outputs a tidy data set. The process is broken down into the following steps:
 
- -Part1 - Read the training and test datasets into dataframes  
- -Part2 - Extract only the mean and standard deviation columns for each measurement
- -Part3 - Uses descriptive activity names to name the activities in the dataset
- -Part4 - Appropriately labels the data set with descriptive variable names and combines all data into 1 data frame.
+-Part1 - Read the training and test datasets into dataframes  
+-Part2 - Extract only the mean and standard deviation columns for each measurement
+-Part3 - Uses descriptive activity names to name the activities in the dataset
+-Part4 - Appropriately labels the data set with descriptive variable names and combines all data into 1 data frame.
 -Part5 - Creates a second, independent tidy data set with the mean of each variable for each activity and each subject.
 
 
