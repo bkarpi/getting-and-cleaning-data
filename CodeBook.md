@@ -22,7 +22,7 @@ Calculations and Transformations
 - Extract only the mean and standard deviation columns for each measurement
 - Uses descriptive activity names to name the activities in the dataset
 - Appropriately labels the data set with descriptive variable names and combines all data into 1 data frame.
-- Creates a second, independent tidy data set with the mean of each variable for each activity and each subject.
+- Creates a second, independent tidy data set with the mean of each variable for each activity and each subject
 
 
 
