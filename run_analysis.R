@@ -32,11 +32,11 @@ combLabels[, 1] <- activityLabel           #merge combLabels col1 with activity
 names(combLabels) <- "activity"            #label column activity
 
 ### Part4 Appropriately labels the data set with descriptive variable names and combines all data
-features[,2] <- gsub('[-()]', '', features[,2])     
-features[,2] <- gsub('mean', 'Mean', features[,2])   
-features[,2] <- gsub('std', 'Std', features[,2])
+features[,2] <- gsub('[-()]', '', features[,2])     #clean up columns names
+features[,2] <- gsub('mean', 'Mean', features[,2])  #clean up columns names 
+features[,2] <- gsub('std', 'Std', features[,2])    #clean up columns names
 
-names(combData) <- features[keepCols, 2] 
+names(combData) <- features[keepCols, 2]            #adds column names
 names(combSubject) <- "subject"
 
 tidyData1 <- cbind(combSubject, combLabels, combData)
