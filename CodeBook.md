@@ -1,24 +1,41 @@
 
-Coursera Getting and Cleaning Data Course Project 
+Coursera Getting and Cleaning Data Course Project - CodeBook
 ----------
 
-Overview
-------------
 
-This repo contains the R script, final output, README, and CodeBook for the Coursera Getting and Cleaning Data course project. The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set that can be easily used for further analysis
-
-Data
+Raw Data
 ----------
+The raw data used for this exercise was obtained from the UCI Machine Learning Repository. This data was collected from  accelerometers from the Samsung Galaxy S smartphone for a group of 30 volunteers within an age bracket of 19-48 years old. . A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The raw data and readme files can be obtained at:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+
+Calculations and Transformations
+--------------------------------------
+- Read the training and test datasets into dataframes 
+- Extract only the mean and standard deviation columns for each measurement
+- Uses descriptive activity names to name the activities in the dataset
+- Appropriately labels the data set with descriptive variable names and combines all data into 1 data frame.
+- Creates a second, independent tidy data set with the mean of each variable for each activity and each subject that is uploaded to this repo.
+
+
+
+
+Output Data tidycsv.txt
+----------
+
+All Mean and STD columns are numeric and within the range [-1,1]
+
 |Col |Col Name          | Type Class | Description
 |----|------------------|------------|-----------------------------------------------------
-|1   |subject           | Integer    | Unique identifier assigned to each subject
+|1   |subject           | Integer    | Unique identifier assigned to each subject. Value Range 1 to 30
 |2   |activity          | Factor     | Type of activity for example walking, standing, etc
-|3   |tBodyAccMeanX     | Numeric    |  
-|4   |tBodyAccMeanY     | Numeric    |
-|5   |tBodyAccMeanZ     | Numeric    |
-|6   |tBodyAccStdX      | Numeric    |
-|7   |tBodyAccStdY      | Numeric    |
-|8   |tBodyAccStdZ      | Numeric    |
+|3   |tBodyAccMeanX     | Numeric    | Remaining descriptions: Average of each variable by subject/acitivity 
+|8   |tBodyAccStdZ      | Numeric    |   
 |9   |tGravityAccMeanX  | Numeric    |
 |10  |tGravityAccMeanY  | Numeric    |
 |11  |tGravityAccMeanZ  | Numeric    |
