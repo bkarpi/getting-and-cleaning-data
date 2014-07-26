@@ -27,8 +27,10 @@ Calculations and Transformations
 
 
 
-Output Data tidycsv.txt
+Output Data: tidycsv.txt 
 ----------
+
+68 columns, 180 rows
 
 All Mean and STD columns are numeric and within the range [-1,1]
 
