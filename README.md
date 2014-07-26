@@ -7,7 +7,7 @@ Overview
 
 This repo contains the R script, final output, README, and CodeBook for the Coursera Getting and Cleaning Data course project. The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set that can be easily used for further analysis
 
-Raw Data
+Input Data
 ----------
 The raw data used for this exercise was obtained from the UCI Machine Learning Repository. This data was collected from  accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 

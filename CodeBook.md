@@ -5,13 +5,15 @@ Coursera Getting and Cleaning Data Course Project - CodeBook
 
 Raw Data
 ----------
-The raw data used for this exercise was obtained from the UCI Machine Learning Repository. This data was collected from  accelerometers from the Samsung Galaxy S smartphone for a group of 30 volunteers within an age bracket of 19-48 years old. . A full description is available at the site where the data was obtained: 
+The raw data used for this exercise was obtained from the UCI Machine Learning Repository. This data was collected from  accelerometers from the Samsung Galaxy S smartphone for a group of 30 volunteers within an age bracket of 19-48 years old.  The full description of the data is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The raw data and readme files can be obtained at:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The main documents to refernec that describe the input data include the features_info.txt and the README.txt
 
 
 Calculations and Transformations
@@ -33,7 +35,7 @@ All Mean and STD columns are numeric and within the range [-1,1]
 |Col |Col Name          | Type Class | Description
 |----|------------------|------------|-----------------------------------------------------
 |1   |subject           | Integer    | Unique identifier assigned to each subject. Value Range 1 to 30
-|2   |activity          | Factor     | Type of activity for example walking, standing, etc
+|2   |activity          | Factor     | Type of activity: laying, sitting, standing, walking, walking downstairs, walking upstairs
 |3   |tBodyAccMeanX     | Numeric    | Remaining descriptions: Average of each variable from the input data by subject/acitivity
 |4   |tBodyAccMeanY     | Numeric    |   
 |5   |tBodyAccMeanZ     | Numeric    |
