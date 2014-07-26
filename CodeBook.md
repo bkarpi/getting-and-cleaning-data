@@ -9,13 +9,13 @@ This repo contains the R script, final output, README, and CodeBook for the Cour
 
 Data
 ----------
-Col Col Name              Type Class
-1.  subject               Integer
-2.  activity              Factor
-3.  tBodyAccMeanX         Numeric
-4.  tBodyAccMeanY           ||
-5.  tBodyAccMeanZ           VV 
-6.  tBodyAccStdX
+Col Col Name              Type Class  
+1.  subject               Integer  
+2.  activity              Factor  
+3.  tBodyAccMeanX         Numeric  
+4.  tBodyAccMeanY           ||  
+5.  tBodyAccMeanZ           VV   
+6.  tBodyAccStdX  
 7.  tBodyAccStdY
 8.  tBodyAccStdZ
 9.  tGravityAccMeanX
