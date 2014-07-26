@@ -20,7 +20,7 @@ Calculations and Transformations
 - Extract only the mean and standard deviation columns for each measurement
 - Uses descriptive activity names to name the activities in the dataset
 - Appropriately labels the data set with descriptive variable names and combines all data into 1 data frame.
-- Creates a second, independent tidy data set with the mean of each variable for each activity and each subject that is uploaded to this repo.
+- Creates a second, independent tidy data set with the mean of each variable for each activity and each subject.
 
 
 
@@ -34,7 +34,11 @@ All Mean and STD columns are numeric and within the range [-1,1]
 |----|------------------|------------|-----------------------------------------------------
 |1   |subject           | Integer    | Unique identifier assigned to each subject. Value Range 1 to 30
 |2   |activity          | Factor     | Type of activity for example walking, standing, etc
-|3   |tBodyAccMeanX     | Numeric    | Remaining descriptions: Average of each variable by subject/acitivity 
+|3   |tBodyAccMeanX     | Numeric    | Remaining descriptions: Average of each variable from the input data by subject/acitivity
+|4   |tBodyAccMeanY     | Numeric    |   
+|5   |tBodyAccMeanZ     | Numeric    |
+|6   |tBodyAccStdX      | Numeric    |
+|7   |tBodyAccStdY      | Numeric    |
 |8   |tBodyAccStdZ      | Numeric    |   
 |9   |tGravityAccMeanX  | Numeric    |
 |10  |tGravityAccMeanY  | Numeric    |
