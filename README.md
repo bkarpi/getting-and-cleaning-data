@@ -40,5 +40,5 @@ as the upload tool used in the course does not explicity support the .csv extens
 tidycsv.txt
 
 Code Book
-----------
+---------
 There is a CodeBook available in this repo that describes the variables, the data, and transformations that were performed to clean the data.
