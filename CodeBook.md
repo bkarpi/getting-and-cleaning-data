@@ -13,7 +13,7 @@ The raw data and readme files can be obtained at:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The main documents to refernec that describe the input data include the features_info.txt and the README.txt
+The main documents to reference that describe the input data include the features_info.txt and the README.txt
 
 
 Calculations and Transformations
@@ -36,7 +36,7 @@ All Mean and STD columns are numeric and within the range [-1,1]
 |----|------------------|------------|-----------------------------------------------------
 |1   |subject           | Integer    | Unique identifier assigned to each subject. Value Range 1 to 30
 |2   |activity          | Factor     | Type of activity: laying, sitting, standing, walking, walking downstairs, walking upstairs
-|3   |tBodyAccMeanX     | Numeric    | Remaining descriptions: Average of each variable from the input data by subject/acitivity
+|3   |tBodyAccMeanX     | Numeric    | Remaining descriptions: Average of each STD and mean variable from the input data by subject/acitivity
 |4   |tBodyAccMeanY     | Numeric    |   
 |5   |tBodyAccMeanZ     | Numeric    |
 |6   |tBodyAccStdX      | Numeric    |
